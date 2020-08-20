@@ -54,6 +54,7 @@ until input === "exit"
   if input === "help"
     help
   if input === "list"
+    list
   if input === "play"
   if input === "exit"
     
