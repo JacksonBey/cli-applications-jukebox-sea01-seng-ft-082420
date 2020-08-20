@@ -51,7 +51,7 @@ until input === "exit"
     list(songs)
   if input === "play"
     play(songs)
-  if input === "exit"
+  if input === "Phoenix - 1901"
     binding.pry
   end
 end
