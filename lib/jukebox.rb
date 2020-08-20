@@ -40,7 +40,7 @@ def exit_jukebox
 end
 
 
-def run
+def run(songs)
 input=""
 until input === "exit"
   puts "Please enter a command:"
@@ -48,9 +48,9 @@ until input === "exit"
   if input === "help"
     help
   if input === "list"
-    list
+    list(songs)
   if input === "play"
-    play
+    play(songs)
   end
 end
 exit_jukebox
