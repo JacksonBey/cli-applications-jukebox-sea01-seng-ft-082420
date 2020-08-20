@@ -55,8 +55,8 @@ until input === "exit"
     play(songs)
   end
 end
-exit_jukebox
-end
+
+endexit_jukebox
 end
 
 
