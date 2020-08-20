@@ -51,6 +51,8 @@ until input === "exit"
     list(songs)
   if input === "play"
     play(songs)
+  if input === "exit"
+    binding.pry
   end
 end
 exit_jukebox
