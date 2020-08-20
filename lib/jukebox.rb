@@ -53,6 +53,7 @@ until input === "exit"
     play(songs)
   end
 end
+binding.pry
 exit_jukebox
 end
 end
