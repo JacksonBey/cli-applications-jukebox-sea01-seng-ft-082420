@@ -45,7 +45,6 @@ input=""
 until input === "exit"
   puts "Please enter a command:"
   input=gets.strip
-  binding.pry
   if input === "exit"
     break
   if input === "help"
