@@ -47,18 +47,15 @@ until input === "exit"
   input=gets.strip
   if input === "exit"
     break
-  if input === "help"
+  else if input === "help"
     help
-  if input === "list"
+  else if input === "list"
     list(songs)
-  if input === "play"
+  else if input === "play"
     play(songs)
   end
 end
 exit_jukebox
-end
-end
-end
 end
 
 
