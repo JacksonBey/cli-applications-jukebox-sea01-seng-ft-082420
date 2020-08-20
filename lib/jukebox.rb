@@ -1,9 +1,6 @@
 # Add your code here
 require 'pry'
 
-def numeric?
-  match(/\A[+-]?\d+?(_?\d+)*(\.\d+e?\d*)?\Z/) == nil ? false : true
-end
 
 def help
 puts "I accept the following commands:"
@@ -56,11 +53,10 @@ until input === "exit"
   if input === "list"
     list
   if input === "play"
-  if input === "exit"
-    
+    play
   end
 end
-
+exit_jukebox
 end
 
 
