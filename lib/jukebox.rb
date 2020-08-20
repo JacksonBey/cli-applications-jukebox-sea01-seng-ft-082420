@@ -1,7 +1,5 @@
 # Add your code here
 require 'pry'
-
-
 def help
 puts "I accept the following commands:"
 puts "- help : displays this help message"
@@ -35,7 +33,6 @@ if isong===false
   isong=true
 end
 end
-
 
 
 def exit_jukebox
