@@ -33,6 +33,7 @@ if isong===false
   isong=true
 end
 end
+end
 
 
 def exit_jukebox
