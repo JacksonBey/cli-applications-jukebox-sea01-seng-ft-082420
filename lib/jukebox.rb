@@ -57,6 +57,7 @@ until input === "exit"
 end
 end
 end
+end
 exit_jukebox
 end
 
