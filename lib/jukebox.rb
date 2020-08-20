@@ -33,7 +33,6 @@ if isong===false
   isong=true
 end
 end
-end
 
 
 def exit_jukebox
@@ -55,6 +54,8 @@ until input === "exit"
   end
 end
 exit_jukebox
+end
+end
 end
 
 
